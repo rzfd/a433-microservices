@@ -2,7 +2,7 @@ version: '2'
 
 services:
   item-app:
-    image: docker.pkg.github.com/rzfd/docker-repo/item-app:v1 
+    image: docker.pkg.github.com/rzfd/a433-microservices/item-app:v1 
     # iamge docker akan dihubungkan ke dalam github package untuk akses secara remote
     ports:
       - "80:8080"
