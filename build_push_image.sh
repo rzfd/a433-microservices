@@ -11,7 +11,7 @@ docker build -t "$IMAGE_NAME:$IMAGE_TAG" .
 docker images
 
 # Step 3: Mengubah nama image agar sesuai dengan format Docker Hub
-docker tag "$IMAGE_NAME:$IMAGE_TAG" "dockerhubusername/$IMAGE_NAME:$IMAGE_TAG"
+docker tag "$IMAGE_NAME:$IMAGE_TAG" "tarjo/$IMAGE_NAME:$IMAGE_TAG"
 
 # Step 4: Login ke Docker Hub 
 docker login
